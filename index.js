@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.json({ message: 'coucou' });
 })
 
-app.listen(80, (err) => {
+app.listen(PORT, (err) => {
     if (err) {
         console.error(err);
         process.exit(1);
